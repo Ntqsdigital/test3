@@ -1,0 +1,708 @@
+2025-09-15 16:59:23,787 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-15 16:59:26,724 | INFO | Download complete.
+2025-09-15 16:59:26,986 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-15 16:59:27,002 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-15
+suresh thanvikalthireddy5566@gmail.com  2025-09-15
+naresh        ghanireddy5566@gmail.com  2025-09-15
+2025-09-15 16:59:27,010 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-15 16:59:27,010 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name'
+2025-09-15 16:59:27,019 | INFO | Parsed 3 agreement(s).
+2025-09-15 16:59:27,019 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-15 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-15 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-15 | ghanireddy5566@gmail.com
+2025-09-15 16:59:27,019 | INFO | 3 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-15 16:59:30,480 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Hourly Alert: 'mukesh' Expires Today
+2025-09-15 16:59:30,480 | INFO | Hourly alert sent for 'mukesh' to ['ganeshsaireddy5566@gmail.com']
+2025-09-15 16:59:34,141 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Hourly Alert: 'suresh' Expires Today
+2025-09-15 16:59:34,141 | INFO | Hourly alert sent for 'suresh' to ['thanvikalthireddy5566@gmail.com']
+2025-09-15 16:59:37,585 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Hourly Alert: 'naresh' Expires Today
+2025-09-15 16:59:37,585 | INFO | Hourly alert sent for 'naresh' to ['ghanireddy5566@gmail.com']
+2025-09-17 12:13:57,004 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:14:00,748 | INFO | Download complete.
+2025-09-17 12:14:01,151 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:14:01,182 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:14:01,182 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:14:01,182 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name'
+2025-09-17 12:14:01,182 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:14:01,182 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:14:05,154 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires in 2 Day(s)
+2025-09-17 12:14:05,154 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:14:08,868 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires in 3 Day(s)
+2025-09-17 12:14:08,869 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:14:12,617 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires in 4 Day(s)
+2025-09-17 12:14:12,627 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:14:12,627 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 12:17:38,293 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:17:41,581 | INFO | Download complete.
+2025-09-17 12:17:41,803 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:17:41,836 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:17:41,836 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:17:41,836 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name'
+2025-09-17 12:17:41,836 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:17:41,836 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:17:45,431 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:17:45,437 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:17:49,294 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:17:49,294 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:17:53,620 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:17:53,634 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:17:53,634 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 12:24:53,417 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:24:56,698 | INFO | Download complete.
+2025-09-17 12:24:56,967 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:24:56,993 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:24:56,993 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:24:56,993 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name'
+2025-09-17 12:24:56,993 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:24:56,993 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:25:00,620 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:25:00,629 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:25:04,571 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:25:04,573 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:25:08,434 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:25:08,434 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:25:08,434 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 12:32:06,144 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:32:09,305 | INFO | Download complete.
+2025-09-17 12:32:09,560 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:32:09,593 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:32:09,593 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:32:09,593 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name'
+2025-09-17 12:32:09,593 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:32:09,593 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:32:09,600 | WARNING | Attachment file not found: docs\mukesh
+2025-09-17 12:32:13,691 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires in 2 Day(s)
+2025-09-17 12:32:13,704 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:32:13,704 | WARNING | Attachment file not found: docs\suresh
+2025-09-17 12:32:17,593 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires in 3 Day(s)
+2025-09-17 12:32:17,593 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:32:17,597 | WARNING | Attachment file not found: docs\naresh
+2025-09-17 12:32:20,884 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires in 4 Day(s)
+2025-09-17 12:32:20,884 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:32:20,884 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 12:34:33,891 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:34:37,209 | INFO | Download complete.
+2025-09-17 12:34:37,430 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:34:37,466 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:34:37,466 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:34:37,466 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None'
+2025-09-17 12:34:37,466 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:34:37,466 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:34:41,936 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:34:41,943 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:34:45,754 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:34:45,755 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:34:49,335 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewed Expiry Date Notification
+2025-09-17 12:34:49,335 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:34:49,335 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 12:43:21,408 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 12:43:24,641 | INFO | Download complete.
+2025-09-17 12:43:24,873 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 12:43:24,897 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 12:43:24,897 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 12:43:24,897 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None'
+2025-09-17 12:43:24,897 | INFO | Parsed 3 agreement(s).
+2025-09-17 12:43:24,899 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 12:43:28,720 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-17 12:43:28,720 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 12:43:32,177 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-17 12:43:32,179 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 12:43:35,730 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-17 12:43:35,731 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 12:43:35,731 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 16:41:09,584 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 16:41:13,002 | INFO | Download complete.
+2025-09-17 16:41:14,942 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 16:41:14,988 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 16:41:14,988 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 16:41:14,988 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None'
+2025-09-17 16:41:14,988 | INFO | Parsed 3 agreement(s).
+2025-09-17 16:41:14,992 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 16:41:19,337 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-17 16:41:19,337 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 16:41:23,122 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-17 16:41:23,122 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 16:41:27,322 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-17 16:41:27,326 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 16:41:27,326 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 16:44:02,542 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 16:44:05,952 | INFO | Download complete.
+2025-09-17 16:44:06,216 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 16:44:06,237 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 16:44:06,240 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 16:44:06,240 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None'
+2025-09-17 16:44:06,240 | INFO | Parsed 3 agreement(s).
+2025-09-17 16:44:06,240 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com
+2025-09-17 16:44:10,653 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-17 16:44:10,655 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 16:44:14,646 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-17 16:44:14,648 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 16:44:18,942 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-17 16:44:18,948 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 16:44:18,950 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 16:48:35,143 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 16:48:38,511 | INFO | Download complete.
+2025-09-17 16:48:38,756 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 16:48:38,774 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 16:48:38,774 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 16:48:38,774 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-17 16:48:38,780 | INFO | Parsed 3 agreement(s).
+2025-09-17 16:48:38,780 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com | name=mukesh
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com | name=suresh
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com | name=naresh
+2025-09-17 16:48:42,857 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-17 16:48:42,860 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 16:48:46,824 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-17 16:48:46,824 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 16:48:50,814 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-17 16:48:50,814 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 16:48:50,814 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-17 16:50:08,323 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-17 16:50:12,259 | INFO | Download complete.
+2025-09-17 16:50:12,695 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-17 16:50:12,731 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-17 16:50:12,732 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-17 16:50:12,732 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-17 16:50:12,734 | INFO | Parsed 3 agreement(s).
+2025-09-17 16:50:12,734 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com | name=mukesh
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com | name=suresh
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com | name=naresh
+2025-09-17 16:50:16,426 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-17 16:50:16,426 | INFO | Reminder sent for 'mukesh' (2 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-17 16:50:21,034 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-17 16:50:21,034 | INFO | Reminder sent for 'suresh' (3 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-17 16:50:24,924 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-17 16:50:24,926 | INFO | Reminder sent for 'naresh' (4 days left) to ['ghanireddy5566@gmail.com']
+2025-09-17 16:50:24,926 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-18 09:35:55,106 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 09:35:58,581 | INFO | Download complete.
+2025-09-18 09:36:01,281 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 09:36:01,322 | INFO | Excel Preview (first 8 rows):
+  Name                           Email Expiry Date
+mukesh    ganeshsaireddy5566@gmail.com  2025-09-19
+suresh thanvikalthireddy5566@gmail.com  2025-09-20
+naresh        ghanireddy5566@gmail.com  2025-09-21
+2025-09-18 09:36:01,322 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 09:36:01,322 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 09:36:01,322 | INFO | Parsed 3 agreement(s).
+2025-09-18 09:36:01,322 | INFO | Sample parsed agreements:
+  - mukesh | 2025-09-19 | ganeshsaireddy5566@gmail.com | name=mukesh
+  - suresh | 2025-09-20 | thanvikalthireddy5566@gmail.com | name=suresh
+  - naresh | 2025-09-21 | ghanireddy5566@gmail.com | name=naresh
+2025-09-18 09:36:05,379 | INFO | Email sent to: ganeshsaireddy5566@gmail.com | Subject: Renewal Reminder: 'mukesh' Expires Soon
+2025-09-18 09:36:05,380 | INFO | Reminder sent for 'mukesh' (1 days left) to ['ganeshsaireddy5566@gmail.com']
+2025-09-18 09:36:09,720 | INFO | Email sent to: thanvikalthireddy5566@gmail.com | Subject: Renewal Reminder: 'suresh' Expires Soon
+2025-09-18 09:36:09,720 | INFO | Reminder sent for 'suresh' (2 days left) to ['thanvikalthireddy5566@gmail.com']
+2025-09-18 09:36:13,475 | INFO | Email sent to: ghanireddy5566@gmail.com | Subject: Renewal Reminder: 'naresh' Expires Soon
+2025-09-18 09:36:13,475 | INFO | Reminder sent for 'naresh' (3 days left) to ['ghanireddy5566@gmail.com']
+2025-09-18 09:36:13,478 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-18 10:51:18,091 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 10:51:21,878 | INFO | Download complete.
+2025-09-18 10:51:22,121 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 10:51:22,144 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-19
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-22
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-22
+Henna Feroze            henna.khan@nuevostech.com  2025-09-21
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-22
+     Kainaat                    hr@nuevostech.com  2025-09-22
+     Kalpana             kalpana.s@nuevostech.com  2025-09-22
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-20
+2025-09-18 10:51:22,144 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 10:51:22,152 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 10:51:22,153 | INFO | Parsed 21 agreement(s).
+2025-09-18 10:51:22,155 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-19 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-22 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-22 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-21 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-22 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-22 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-22 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-20 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-22 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-22 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 10:51:25,804 | INFO | Email sent to: famida.fesmini@nuevostech.com | Subject: Renewal Reminder: 'Famida' Expires Soon
+2025-09-18 10:51:25,811 | INFO | Reminder sent for 'Famida' (1 days left) to ['famida.fesmini@nuevostech.com']
+2025-09-18 10:51:28,821 | INFO | Email sent to: gaddamlakshmi.sumanth@nuevostech.com | Subject: Renewal Reminder: 'Sumanth' Expires Soon
+2025-09-18 10:51:28,821 | INFO | Reminder sent for 'Sumanth' (4 days left) to ['gaddamlakshmi.sumanth@nuevostech.com']
+2025-09-18 10:51:31,771 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Renewal Reminder: 'Ganeshsai' Expires Soon
+2025-09-18 10:51:31,771 | INFO | Reminder sent for 'Ganeshsai' (4 days left) to ['ganeshsai@nuevostech.com']
+2025-09-18 10:51:34,704 | INFO | Email sent to: henna.khan@nuevostech.com | Subject: Renewal Reminder: 'Henna Feroze' Expires Soon
+2025-09-18 10:51:34,704 | INFO | Reminder sent for 'Henna Feroze' (3 days left) to ['henna.khan@nuevostech.com']
+2025-09-18 10:51:37,934 | INFO | Email sent to: jyoshna.v@nuevostech.com | Subject: Renewal Reminder: 'jyoshna' Expires Soon
+2025-09-18 10:51:37,934 | INFO | Reminder sent for 'jyoshna' (4 days left) to ['jyoshna.v@nuevostech.com']
+2025-09-18 10:51:41,254 | INFO | Email sent to: hr@nuevostech.com | Subject: Renewal Reminder: 'Kainaat' Expires Soon
+2025-09-18 10:51:41,254 | INFO | Reminder sent for 'Kainaat' (4 days left) to ['hr@nuevostech.com']
+2025-09-18 10:51:44,521 | INFO | Email sent to: kalpana.s@nuevostech.com | Subject: Renewal Reminder: 'Kalpana' Expires Soon
+2025-09-18 10:51:44,521 | INFO | Reminder sent for 'Kalpana' (4 days left) to ['kalpana.s@nuevostech.com']
+2025-09-18 10:51:47,407 | INFO | Email sent to: mahendra.gaddam@nuevostech.com | Subject: Renewal Reminder: 'Mahendra' Expires Soon
+2025-09-18 10:51:47,409 | INFO | Reminder sent for 'Mahendra' (2 days left) to ['mahendra.gaddam@nuevostech.com']
+2025-09-18 10:51:50,577 | INFO | Email sent to: meghali.mondal@nuevostech.com | Subject: Renewal Reminder: 'Meghali' Expires Soon
+2025-09-18 10:51:50,577 | INFO | Reminder sent for 'Meghali' (4 days left) to ['meghali.mondal@nuevostech.com']
+2025-09-18 10:51:53,650 | INFO | Email sent to: muthumani.s@nuevostech.com | Subject: Renewal Reminder: 'Muthumani' Expires Soon
+2025-09-18 10:51:53,661 | INFO | Reminder sent for 'Muthumani' (4 days left) to ['muthumani.s@nuevostech.com']
+2025-09-18 10:51:56,944 | INFO | Email sent to: rakshit.mudgal@nuevostech.com | Subject: Renewal Reminder: 'Rakshit' Expires Soon
+2025-09-18 10:51:56,944 | INFO | Reminder sent for 'Rakshit' (4 days left) to ['rakshit.mudgal@nuevostech.com']
+2025-09-18 10:51:59,993 | INFO | Email sent to: sanjana.samireddypalle@nuevostech.com | Subject: Renewal Reminder: 'Sanjana' Expires Soon
+2025-09-18 10:51:59,993 | INFO | Reminder sent for 'Sanjana' (4 days left) to ['sanjana.samireddypalle@nuevostech.com']
+2025-09-18 10:52:03,319 | INFO | Email sent to: info@nuevostech.com | Subject: Renewal Reminder: 'Sateesh' Expires Soon
+2025-09-18 10:52:03,319 | INFO | Reminder sent for 'Sateesh' (1 days left) to ['info@nuevostech.com']
+2025-09-18 10:52:06,655 | INFO | Email sent to: shivani@nuevostech.com | Subject: Renewal Reminder: 'Shivani' Expires Soon
+2025-09-18 10:52:06,655 | INFO | Reminder sent for 'Shivani' (4 days left) to ['shivani@nuevostech.com']
+2025-09-18 10:52:09,653 | INFO | Email sent to: shruti.gayatri@nuevostech.com | Subject: Renewal Reminder: 'Shruti' Expires Soon
+2025-09-18 10:52:09,653 | INFO | Reminder sent for 'Shruti' (4 days left) to ['shruti.gayatri@nuevostech.com']
+2025-09-18 10:52:12,638 | INFO | Email sent to: simin.islam@nuevostech.com | Subject: Renewal Reminder: 'Simin' Expires Soon
+2025-09-18 10:52:12,638 | INFO | Reminder sent for 'Simin' (4 days left) to ['simin.islam@nuevostech.com']
+2025-09-18 10:52:15,560 | INFO | Email sent to: sureddi.pinakapani@nuevostech.com | Subject: Renewal Reminder: 'Pani' Expires Soon
+2025-09-18 10:52:15,560 | INFO | Reminder sent for 'Pani' (4 days left) to ['sureddi.pinakapani@nuevostech.com']
+2025-09-18 10:52:18,646 | INFO | Email sent to: yash.vashi@nuevostech.com | Subject: Renewal Reminder: 'Yash' Expires Soon
+2025-09-18 10:52:18,646 | INFO | Reminder sent for 'Yash' (4 days left) to ['yash.vashi@nuevostech.com']
+2025-09-18 10:52:18,646 | INFO | 3 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 10:52:21,787 | INFO | Email sent to: somadhara.ramabattina@nuevostech.com | Subject: Hourly Alert: 'Somadhara' Expires Today
+2025-09-18 10:52:21,787 | INFO | Hourly alert sent for 'Somadhara' to ['somadhara.ramabattina@nuevostech.com']
+2025-09-18 10:52:25,005 | INFO | Email sent to: thanvi@nuevostech.com | Subject: Hourly Alert: 'Thanvi' Expires Today
+2025-09-18 10:52:25,005 | INFO | Hourly alert sent for 'Thanvi' to ['thanvi@nuevostech.com']
+2025-09-18 10:52:28,185 | INFO | Email sent to: veni.veronica@nuevostech.com | Subject: Hourly Alert: 'Veni' Expires Today
+2025-09-18 10:52:28,185 | INFO | Hourly alert sent for 'Veni' to ['veni.veronica@nuevostech.com']
+2025-09-18 11:25:04,770 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 11:25:08,106 | INFO | Download complete.
+2025-09-18 11:25:08,409 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 11:25:08,437 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-27
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-27
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-27
+Henna Feroze            henna.khan@nuevostech.com  2025-09-27
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-27
+     Kainaat                    hr@nuevostech.com  2025-09-27
+     Kalpana             kalpana.s@nuevostech.com  2025-09-27
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-27
+2025-09-18 11:25:08,437 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 11:25:08,437 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 11:25:08,439 | INFO | Parsed 21 agreement(s).
+2025-09-18 11:25:08,439 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-27 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-27 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-27 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-27 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-27 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-27 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-27 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-27 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-27 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-27 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 11:25:08,441 | INFO | No agreements expiring today; skipping hourly alerts.
+2025-09-18 11:26:54,469 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 11:26:57,773 | INFO | Download complete.
+2025-09-18 11:26:58,015 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 11:26:58,042 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-18
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-18
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-18
+Henna Feroze            henna.khan@nuevostech.com  2025-09-18
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-18
+     Kainaat                    hr@nuevostech.com  2025-09-18
+     Kalpana             kalpana.s@nuevostech.com  2025-09-18
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-18
+2025-09-18 11:26:58,042 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 11:26:58,042 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 11:26:58,046 | INFO | Parsed 21 agreement(s).
+2025-09-18 11:26:58,046 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-18 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-18 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-18 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-18 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-18 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-18 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-18 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-18 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-18 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-18 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 11:26:58,046 | INFO | 21 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 11:27:02,210 | INFO | Email sent to: famida.fesmini@nuevostech.com | Subject: Hourly Alert: 'Famida' Expires Today
+2025-09-18 11:27:02,220 | INFO | Hourly alert sent for 'Famida' to ['famida.fesmini@nuevostech.com']
+2025-09-18 11:27:05,148 | INFO | Email sent to: gaddamlakshmi.sumanth@nuevostech.com | Subject: Hourly Alert: 'Sumanth' Expires Today
+2025-09-18 11:27:05,148 | INFO | Hourly alert sent for 'Sumanth' to ['gaddamlakshmi.sumanth@nuevostech.com']
+2025-09-18 11:27:08,062 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Hourly Alert: 'Ganeshsai' Expires Today
+2025-09-18 11:27:08,063 | INFO | Hourly alert sent for 'Ganeshsai' to ['ganeshsai@nuevostech.com']
+2025-09-18 11:27:11,170 | INFO | Email sent to: henna.khan@nuevostech.com | Subject: Hourly Alert: 'Henna Feroze' Expires Today
+2025-09-18 11:27:11,170 | INFO | Hourly alert sent for 'Henna Feroze' to ['henna.khan@nuevostech.com']
+2025-09-18 11:27:14,059 | INFO | Email sent to: jyoshna.v@nuevostech.com | Subject: Hourly Alert: 'jyoshna' Expires Today
+2025-09-18 11:27:14,059 | INFO | Hourly alert sent for 'jyoshna' to ['jyoshna.v@nuevostech.com']
+2025-09-18 11:27:17,221 | INFO | Email sent to: hr@nuevostech.com | Subject: Hourly Alert: 'Kainaat' Expires Today
+2025-09-18 11:27:17,221 | INFO | Hourly alert sent for 'Kainaat' to ['hr@nuevostech.com']
+2025-09-18 11:27:20,129 | INFO | Email sent to: kalpana.s@nuevostech.com | Subject: Hourly Alert: 'Kalpana' Expires Today
+2025-09-18 11:27:20,131 | INFO | Hourly alert sent for 'Kalpana' to ['kalpana.s@nuevostech.com']
+2025-09-18 11:27:23,286 | INFO | Email sent to: mahendra.gaddam@nuevostech.com | Subject: Hourly Alert: 'Mahendra' Expires Today
+2025-09-18 11:27:23,286 | INFO | Hourly alert sent for 'Mahendra' to ['mahendra.gaddam@nuevostech.com']
+2025-09-18 11:27:26,487 | INFO | Email sent to: meghali.mondal@nuevostech.com | Subject: Hourly Alert: 'Meghali' Expires Today
+2025-09-18 11:27:26,499 | INFO | Hourly alert sent for 'Meghali' to ['meghali.mondal@nuevostech.com']
+2025-09-18 11:27:29,655 | INFO | Email sent to: muthumani.s@nuevostech.com | Subject: Hourly Alert: 'Muthumani' Expires Today
+2025-09-18 11:27:29,655 | INFO | Hourly alert sent for 'Muthumani' to ['muthumani.s@nuevostech.com']
+2025-09-18 11:27:32,867 | INFO | Email sent to: rakshit.mudgal@nuevostech.com | Subject: Hourly Alert: 'Rakshit' Expires Today
+2025-09-18 11:27:32,867 | INFO | Hourly alert sent for 'Rakshit' to ['rakshit.mudgal@nuevostech.com']
+2025-09-18 11:27:35,794 | INFO | Email sent to: sanjana.samireddypalle@nuevostech.com | Subject: Hourly Alert: 'Sanjana' Expires Today
+2025-09-18 11:27:35,797 | INFO | Hourly alert sent for 'Sanjana' to ['sanjana.samireddypalle@nuevostech.com']
+2025-09-18 11:27:38,839 | INFO | Email sent to: info@nuevostech.com | Subject: Hourly Alert: 'Sateesh' Expires Today
+2025-09-18 11:27:38,839 | INFO | Hourly alert sent for 'Sateesh' to ['info@nuevostech.com']
+2025-09-18 11:27:41,910 | INFO | Email sent to: shivani@nuevostech.com | Subject: Hourly Alert: 'Shivani' Expires Today
+2025-09-18 11:27:41,910 | INFO | Hourly alert sent for 'Shivani' to ['shivani@nuevostech.com']
+2025-09-18 11:27:44,931 | INFO | Email sent to: shruti.gayatri@nuevostech.com | Subject: Hourly Alert: 'Shruti' Expires Today
+2025-09-18 11:27:44,931 | INFO | Hourly alert sent for 'Shruti' to ['shruti.gayatri@nuevostech.com']
+2025-09-18 11:27:48,071 | INFO | Email sent to: simin.islam@nuevostech.com | Subject: Hourly Alert: 'Simin' Expires Today
+2025-09-18 11:27:48,071 | INFO | Hourly alert sent for 'Simin' to ['simin.islam@nuevostech.com']
+2025-09-18 11:27:51,038 | INFO | Email sent to: somadhara.ramabattina@nuevostech.com | Subject: Hourly Alert: 'Somadhara' Expires Today
+2025-09-18 11:27:51,038 | INFO | Hourly alert sent for 'Somadhara' to ['somadhara.ramabattina@nuevostech.com']
+2025-09-18 11:27:54,117 | INFO | Email sent to: sureddi.pinakapani@nuevostech.com | Subject: Hourly Alert: 'Pani' Expires Today
+2025-09-18 11:27:54,117 | INFO | Hourly alert sent for 'Pani' to ['sureddi.pinakapani@nuevostech.com']
+2025-09-18 11:27:57,368 | INFO | Email sent to: thanvi@nuevostech.com | Subject: Hourly Alert: 'Thanvi' Expires Today
+2025-09-18 11:27:57,368 | INFO | Hourly alert sent for 'Thanvi' to ['thanvi@nuevostech.com']
+2025-09-18 11:28:00,382 | INFO | Email sent to: veni.veronica@nuevostech.com | Subject: Hourly Alert: 'Veni' Expires Today
+2025-09-18 11:28:00,382 | INFO | Hourly alert sent for 'Veni' to ['veni.veronica@nuevostech.com']
+2025-09-18 11:28:03,570 | INFO | Email sent to: yash.vashi@nuevostech.com | Subject: Hourly Alert: 'Yash' Expires Today
+2025-09-18 11:28:03,570 | INFO | Hourly alert sent for 'Yash' to ['yash.vashi@nuevostech.com']
+2025-09-18 11:33:10,923 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 11:33:14,146 | INFO | Download complete.
+2025-09-18 11:33:17,737 | INFO | Email sent to: ganeshsai@nuevostech.com
+2025-09-18 11:46:11,092 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 11:46:14,183 | INFO | Download complete.
+2025-09-18 11:46:14,428 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 11:46:14,444 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-27
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-27
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-18
+Henna Feroze            henna.khan@nuevostech.com  2025-09-27
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-27
+     Kainaat                    hr@nuevostech.com  2025-09-27
+     Kalpana             kalpana.s@nuevostech.com  2025-09-27
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-27
+2025-09-18 11:46:14,444 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 11:46:14,444 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 11:46:14,452 | INFO | Parsed 21 agreement(s).
+2025-09-18 11:46:14,452 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-27 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-27 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-18 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-27 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-27 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-27 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-27 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-27 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-27 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-27 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 11:46:14,452 | INFO | 1 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 11:46:17,763 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Renewal Reminder: 'Ganeshsai' Expires Today
+2025-09-18 11:46:17,765 | INFO | Hourly alert sent for 'Ganeshsai' to ['ganeshsai@nuevostech.com']
+2025-09-18 11:50:20,721 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 11:50:25,891 | INFO | Download complete.
+2025-09-18 11:50:26,135 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 11:50:26,157 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-18
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-18
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-18
+Henna Feroze            henna.khan@nuevostech.com  2025-09-18
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-18
+     Kainaat                    hr@nuevostech.com  2025-09-18
+     Kalpana             kalpana.s@nuevostech.com  2025-09-18
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-18
+2025-09-18 11:50:26,157 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 11:50:26,157 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 11:50:26,166 | INFO | Parsed 21 agreement(s).
+2025-09-18 11:50:26,166 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-18 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-18 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-18 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-18 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-18 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-18 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-18 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-18 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-18 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-18 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 11:50:26,166 | INFO | 21 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 11:50:29,479 | INFO | Email sent to: famida.fesmini@nuevostech.com | Subject: Renewal Reminder: 'Famida' Expires Today
+2025-09-18 11:50:29,485 | INFO | Hourly alert sent for 'Famida' to ['famida.fesmini@nuevostech.com']
+2025-09-18 11:50:32,662 | INFO | Email sent to: gaddamlakshmi.sumanth@nuevostech.com | Subject: Renewal Reminder: 'Sumanth' Expires Today
+2025-09-18 11:50:32,665 | INFO | Hourly alert sent for 'Sumanth' to ['gaddamlakshmi.sumanth@nuevostech.com']
+2025-09-18 11:50:35,847 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Renewal Reminder: 'Ganeshsai' Expires Today
+2025-09-18 11:50:35,848 | INFO | Hourly alert sent for 'Ganeshsai' to ['ganeshsai@nuevostech.com']
+2025-09-18 11:50:38,885 | INFO | Email sent to: henna.khan@nuevostech.com | Subject: Renewal Reminder: 'Henna Feroze' Expires Today
+2025-09-18 11:50:38,885 | INFO | Hourly alert sent for 'Henna Feroze' to ['henna.khan@nuevostech.com']
+2025-09-18 11:50:41,808 | INFO | Email sent to: jyoshna.v@nuevostech.com | Subject: Renewal Reminder: 'jyoshna' Expires Today
+2025-09-18 11:50:41,810 | INFO | Hourly alert sent for 'jyoshna' to ['jyoshna.v@nuevostech.com']
+2025-09-18 11:50:44,997 | INFO | Email sent to: hr@nuevostech.com | Subject: Renewal Reminder: 'Kainaat' Expires Today
+2025-09-18 11:50:44,997 | INFO | Hourly alert sent for 'Kainaat' to ['hr@nuevostech.com']
+2025-09-18 11:50:47,973 | INFO | Email sent to: kalpana.s@nuevostech.com | Subject: Renewal Reminder: 'Kalpana' Expires Today
+2025-09-18 11:50:47,973 | INFO | Hourly alert sent for 'Kalpana' to ['kalpana.s@nuevostech.com']
+2025-09-18 11:50:51,296 | INFO | Email sent to: mahendra.gaddam@nuevostech.com | Subject: Renewal Reminder: 'Mahendra' Expires Today
+2025-09-18 11:50:51,296 | INFO | Hourly alert sent for 'Mahendra' to ['mahendra.gaddam@nuevostech.com']
+2025-09-18 11:50:54,248 | INFO | Email sent to: meghali.mondal@nuevostech.com | Subject: Renewal Reminder: 'Meghali' Expires Today
+2025-09-18 11:50:54,248 | INFO | Hourly alert sent for 'Meghali' to ['meghali.mondal@nuevostech.com']
+2025-09-18 11:50:57,332 | INFO | Email sent to: muthumani.s@nuevostech.com | Subject: Renewal Reminder: 'Muthumani' Expires Today
+2025-09-18 11:50:57,332 | INFO | Hourly alert sent for 'Muthumani' to ['muthumani.s@nuevostech.com']
+2025-09-18 11:51:00,337 | INFO | Email sent to: rakshit.mudgal@nuevostech.com | Subject: Renewal Reminder: 'Rakshit' Expires Today
+2025-09-18 11:51:00,337 | INFO | Hourly alert sent for 'Rakshit' to ['rakshit.mudgal@nuevostech.com']
+2025-09-18 11:51:03,383 | INFO | Email sent to: sanjana.samireddypalle@nuevostech.com | Subject: Renewal Reminder: 'Sanjana' Expires Today
+2025-09-18 11:51:03,383 | INFO | Hourly alert sent for 'Sanjana' to ['sanjana.samireddypalle@nuevostech.com']
+2025-09-18 11:51:06,351 | INFO | Email sent to: info@nuevostech.com | Subject: Renewal Reminder: 'Sateesh' Expires Today
+2025-09-18 11:51:06,351 | INFO | Hourly alert sent for 'Sateesh' to ['info@nuevostech.com']
+2025-09-18 11:51:09,661 | INFO | Email sent to: shivani@nuevostech.com | Subject: Renewal Reminder: 'Shivani' Expires Today
+2025-09-18 11:51:09,661 | INFO | Hourly alert sent for 'Shivani' to ['shivani@nuevostech.com']
+2025-09-18 11:51:12,670 | INFO | Email sent to: shruti.gayatri@nuevostech.com | Subject: Renewal Reminder: 'Shruti' Expires Today
+2025-09-18 11:51:12,670 | INFO | Hourly alert sent for 'Shruti' to ['shruti.gayatri@nuevostech.com']
+2025-09-18 11:51:15,737 | INFO | Email sent to: simin.islam@nuevostech.com | Subject: Renewal Reminder: 'Simin' Expires Today
+2025-09-18 11:51:15,737 | INFO | Hourly alert sent for 'Simin' to ['simin.islam@nuevostech.com']
+2025-09-18 11:51:19,008 | INFO | Email sent to: somadhara.ramabattina@nuevostech.com | Subject: Renewal Reminder: 'Somadhara' Expires Today
+2025-09-18 11:51:19,008 | INFO | Hourly alert sent for 'Somadhara' to ['somadhara.ramabattina@nuevostech.com']
+2025-09-18 11:51:22,112 | INFO | Email sent to: sureddi.pinakapani@nuevostech.com | Subject: Renewal Reminder: 'Pani' Expires Today
+2025-09-18 11:51:22,112 | INFO | Hourly alert sent for 'Pani' to ['sureddi.pinakapani@nuevostech.com']
+2025-09-18 11:51:25,288 | INFO | Email sent to: thanvi@nuevostech.com | Subject: Renewal Reminder: 'Thanvi' Expires Today
+2025-09-18 11:51:25,289 | INFO | Hourly alert sent for 'Thanvi' to ['thanvi@nuevostech.com']
+2025-09-18 11:51:28,568 | INFO | Email sent to: veni.veronica@nuevostech.com | Subject: Renewal Reminder: 'Veni' Expires Today
+2025-09-18 11:51:28,576 | INFO | Hourly alert sent for 'Veni' to ['veni.veronica@nuevostech.com']
+2025-09-18 11:51:31,854 | INFO | Email sent to: yash.vashi@nuevostech.com | Subject: Renewal Reminder: 'Yash' Expires Today
+2025-09-18 11:51:31,854 | INFO | Hourly alert sent for 'Yash' to ['yash.vashi@nuevostech.com']
+2025-09-18 12:50:31,557 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 12:50:34,753 | INFO | Download complete.
+2025-09-18 12:50:34,992 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 12:50:35,009 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-18
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-18
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-18
+Henna Feroze            henna.khan@nuevostech.com  2025-09-18
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-18
+     Kainaat                    hr@nuevostech.com  2025-09-18
+     Kalpana             kalpana.s@nuevostech.com  2025-09-18
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-18
+2025-09-18 12:50:35,017 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 12:50:35,017 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 12:50:35,019 | INFO | Parsed 21 agreement(s).
+2025-09-18 12:50:35,019 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-18 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-18 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-18 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-18 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-18 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-18 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-18 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-18 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-18 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-18 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 12:50:35,019 | INFO | 21 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 12:50:38,986 | INFO | Email sent to: famida.fesmini@nuevostech.com | Subject: Renewal Reminder: 'Famida' Expires Today
+2025-09-18 12:50:38,996 | INFO | Hourly alert sent for 'Famida' to ['famida.fesmini@nuevostech.com']
+2025-09-18 12:50:42,469 | INFO | Email sent to: gaddamlakshmi.sumanth@nuevostech.com | Subject: Renewal Reminder: 'Sumanth' Expires Today
+2025-09-18 12:50:42,469 | INFO | Hourly alert sent for 'Sumanth' to ['gaddamlakshmi.sumanth@nuevostech.com']
+2025-09-18 12:50:45,847 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Renewal Reminder: 'Ganeshsai' Expires Today
+2025-09-18 12:50:45,847 | INFO | Hourly alert sent for 'Ganeshsai' to ['ganeshsai@nuevostech.com']
+2025-09-18 12:50:49,221 | INFO | Email sent to: henna.khan@nuevostech.com | Subject: Renewal Reminder: 'Henna Feroze' Expires Today
+2025-09-18 12:50:49,221 | INFO | Hourly alert sent for 'Henna Feroze' to ['henna.khan@nuevostech.com']
+2025-09-18 12:50:52,638 | INFO | Email sent to: jyoshna.v@nuevostech.com | Subject: Renewal Reminder: 'jyoshna' Expires Today
+2025-09-18 12:50:52,638 | INFO | Hourly alert sent for 'jyoshna' to ['jyoshna.v@nuevostech.com']
+2025-09-18 12:50:56,119 | INFO | Email sent to: hr@nuevostech.com | Subject: Renewal Reminder: 'Kainaat' Expires Today
+2025-09-18 12:50:56,134 | INFO | Hourly alert sent for 'Kainaat' to ['hr@nuevostech.com']
+2025-09-18 12:50:59,937 | INFO | Email sent to: kalpana.s@nuevostech.com | Subject: Renewal Reminder: 'Kalpana' Expires Today
+2025-09-18 12:50:59,937 | INFO | Hourly alert sent for 'Kalpana' to ['kalpana.s@nuevostech.com']
+2025-09-18 12:51:03,519 | INFO | Email sent to: mahendra.gaddam@nuevostech.com | Subject: Renewal Reminder: 'Mahendra' Expires Today
+2025-09-18 12:51:03,535 | INFO | Hourly alert sent for 'Mahendra' to ['mahendra.gaddam@nuevostech.com']
+2025-09-18 12:57:55,352 | ERROR | Failed to send email.
+Traceback (most recent call last):
+  File "c:\Users\ACER\Python\Renewal_Agreements.py", line 105, in send_email
+    smtp.starttls(context=context)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-09-18 12:57:55,362 | ERROR | Failed to send hourly alert for 'Meghali'.
+Traceback (most recent call last):
+  File "c:\Users\ACER\Python\Renewal_Agreements.py", line 215, in send_hourly_alert
+    send_email(msg)
+  File "c:\Users\ACER\Python\Renewal_Agreements.py", line 105, in send_email
+    smtp.starttls(context=context)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-09-18 12:57:58,849 | INFO | Email sent to: muthumani.s@nuevostech.com | Subject: Renewal Reminder: 'Muthumani' Expires Today
+2025-09-18 12:57:58,849 | INFO | Hourly alert sent for 'Muthumani' to ['muthumani.s@nuevostech.com']
+2025-09-18 12:58:01,988 | INFO | Email sent to: rakshit.mudgal@nuevostech.com | Subject: Renewal Reminder: 'Rakshit' Expires Today
+2025-09-18 12:58:01,988 | INFO | Hourly alert sent for 'Rakshit' to ['rakshit.mudgal@nuevostech.com']
+2025-09-18 12:58:05,586 | INFO | Email sent to: sanjana.samireddypalle@nuevostech.com | Subject: Renewal Reminder: 'Sanjana' Expires Today
+2025-09-18 12:58:05,587 | INFO | Hourly alert sent for 'Sanjana' to ['sanjana.samireddypalle@nuevostech.com']
+2025-09-18 12:58:09,273 | INFO | Email sent to: info@nuevostech.com | Subject: Renewal Reminder: 'Sateesh' Expires Today
+2025-09-18 12:58:09,273 | INFO | Hourly alert sent for 'Sateesh' to ['info@nuevostech.com']
+2025-09-18 12:58:12,498 | INFO | Email sent to: shivani@nuevostech.com | Subject: Renewal Reminder: 'Shivani' Expires Today
+2025-09-18 12:58:12,498 | INFO | Hourly alert sent for 'Shivani' to ['shivani@nuevostech.com']
+2025-09-18 12:58:15,950 | INFO | Email sent to: shruti.gayatri@nuevostech.com | Subject: Renewal Reminder: 'Shruti' Expires Today
+2025-09-18 12:58:15,950 | INFO | Hourly alert sent for 'Shruti' to ['shruti.gayatri@nuevostech.com']
+2025-09-18 12:58:19,443 | INFO | Email sent to: simin.islam@nuevostech.com | Subject: Renewal Reminder: 'Simin' Expires Today
+2025-09-18 12:58:19,443 | INFO | Hourly alert sent for 'Simin' to ['simin.islam@nuevostech.com']
+2025-09-18 12:58:23,080 | INFO | Email sent to: somadhara.ramabattina@nuevostech.com | Subject: Renewal Reminder: 'Somadhara' Expires Today
+2025-09-18 12:58:23,080 | INFO | Hourly alert sent for 'Somadhara' to ['somadhara.ramabattina@nuevostech.com']
+2025-09-18 12:58:26,370 | INFO | Email sent to: sureddi.pinakapani@nuevostech.com | Subject: Renewal Reminder: 'Pani' Expires Today
+2025-09-18 12:58:26,372 | INFO | Hourly alert sent for 'Pani' to ['sureddi.pinakapani@nuevostech.com']
+2025-09-18 12:58:29,552 | INFO | Email sent to: thanvi@nuevostech.com | Subject: Renewal Reminder: 'Thanvi' Expires Today
+2025-09-18 12:58:29,552 | INFO | Hourly alert sent for 'Thanvi' to ['thanvi@nuevostech.com']
+2025-09-18 12:58:29,686 | INFO | Downloading https://drive.google.com/uc?id=1aEyOe-C98I_sV0AItEewMFBl1l5R85R2&export=download -> Renewal.xlsx ...
+2025-09-18 12:58:32,487 | INFO | Download complete.
+2025-09-18 12:58:32,696 | INFO | Email sent to: veni.veronica@nuevostech.com | Subject: Renewal Reminder: 'Veni' Expires Today
+2025-09-18 12:58:32,696 | INFO | Hourly alert sent for 'Veni' to ['veni.veronica@nuevostech.com']
+2025-09-18 12:58:32,704 | INFO | Detected header at row 0 (0-based). Row values: ['name', 'email', 'expiry date']
+2025-09-18 12:58:32,721 | INFO | Excel Preview (first 8 rows):
+        Name                                Email Expiry Date
+      Famida        famida.fesmini@nuevostech.com  2025-09-18
+     Sumanth gaddamlakshmi.sumanth@nuevostech.com  2025-09-18
+   Ganeshsai             ganeshsai@nuevostech.com  2025-09-18
+Henna Feroze            henna.khan@nuevostech.com  2025-09-18
+     jyoshna             jyoshna.v@nuevostech.com  2025-09-18
+     Kainaat                    hr@nuevostech.com  2025-09-18
+     Kalpana             kalpana.s@nuevostech.com  2025-09-18
+    Mahendra       mahendra.gaddam@nuevostech.com  2025-09-18
+2025-09-18 12:58:32,721 | INFO | Detected columns: Name, Email, Expiry Date
+2025-09-18 12:58:32,721 | INFO | Using expiry column: 'Expiry Date' | email column: 'Email' | file column: 'Name' | path column: 'None' | name column: 'Name'
+2025-09-18 12:58:32,721 | INFO | Parsed 21 agreement(s).
+2025-09-18 12:58:32,721 | INFO | Sample parsed agreements:
+  - Famida | 2025-09-18 | famida.fesmini@nuevostech.com | name=Famida
+  - Sumanth | 2025-09-18 | gaddamlakshmi.sumanth@nuevostech.com | name=Sumanth
+  - Ganeshsai | 2025-09-18 | ganeshsai@nuevostech.com | name=Ganeshsai
+  - Henna Feroze | 2025-09-18 | henna.khan@nuevostech.com | name=Henna Feroze
+  - jyoshna | 2025-09-18 | jyoshna.v@nuevostech.com | name=jyoshna
+  - Kainaat | 2025-09-18 | hr@nuevostech.com | name=Kainaat
+  - Kalpana | 2025-09-18 | kalpana.s@nuevostech.com | name=Kalpana
+  - Mahendra | 2025-09-18 | mahendra.gaddam@nuevostech.com | name=Mahendra
+  - Meghali | 2025-09-18 | meghali.mondal@nuevostech.com | name=Meghali
+  - Muthumani | 2025-09-18 | muthumani.s@nuevostech.com | name=Muthumani
+2025-09-18 12:58:32,721 | INFO | 21 agreement(s) expiring today. Sending one-shot alerts.
+2025-09-18 12:58:35,910 | INFO | Email sent to: famida.fesmini@nuevostech.com | Subject: Renewal Reminder: 'Famida' Expires Today
+2025-09-18 12:58:35,910 | INFO | Hourly alert sent for 'Famida' to ['famida.fesmini@nuevostech.com']
+2025-09-18 12:58:36,152 | INFO | Email sent to: yash.vashi@nuevostech.com | Subject: Renewal Reminder: 'Yash' Expires Today
+2025-09-18 12:58:36,152 | INFO | Hourly alert sent for 'Yash' to ['yash.vashi@nuevostech.com']
+2025-09-18 12:58:39,270 | INFO | Email sent to: gaddamlakshmi.sumanth@nuevostech.com | Subject: Renewal Reminder: 'Sumanth' Expires Today
+2025-09-18 12:58:39,270 | INFO | Hourly alert sent for 'Sumanth' to ['gaddamlakshmi.sumanth@nuevostech.com']
+2025-09-18 12:58:42,429 | INFO | Email sent to: ganeshsai@nuevostech.com | Subject: Renewal Reminder: 'Ganeshsai' Expires Today
+2025-09-18 12:58:42,429 | INFO | Hourly alert sent for 'Ganeshsai' to ['ganeshsai@nuevostech.com']
+2025-09-18 12:58:45,707 | INFO | Email sent to: henna.khan@nuevostech.com | Subject: Renewal Reminder: 'Henna Feroze' Expires Today
+2025-09-18 12:58:45,707 | INFO | Hourly alert sent for 'Henna Feroze' to ['henna.khan@nuevostech.com']
+2025-09-18 12:58:49,015 | INFO | Email sent to: jyoshna.v@nuevostech.com | Subject: Renewal Reminder: 'jyoshna' Expires Today
+2025-09-18 12:58:49,015 | INFO | Hourly alert sent for 'jyoshna' to ['jyoshna.v@nuevostech.com']
+2025-09-18 12:58:52,261 | INFO | Email sent to: hr@nuevostech.com | Subject: Renewal Reminder: 'Kainaat' Expires Today
+2025-09-18 12:58:52,261 | INFO | Hourly alert sent for 'Kainaat' to ['hr@nuevostech.com']
+2025-09-18 12:58:56,404 | INFO | Email sent to: kalpana.s@nuevostech.com | Subject: Renewal Reminder: 'Kalpana' Expires Today
+2025-09-18 12:58:56,404 | INFO | Hourly alert sent for 'Kalpana' to ['kalpana.s@nuevostech.com']
+2025-09-18 12:59:00,521 | INFO | Email sent to: mahendra.gaddam@nuevostech.com | Subject: Renewal Reminder: 'Mahendra' Expires Today
+2025-09-18 12:59:00,521 | INFO | Hourly alert sent for 'Mahendra' to ['mahendra.gaddam@nuevostech.com']
+2025-09-18 12:59:03,744 | INFO | Email sent to: meghali.mondal@nuevostech.com | Subject: Renewal Reminder: 'Meghali' Expires Today
+2025-09-18 12:59:03,744 | INFO | Hourly alert sent for 'Meghali' to ['meghali.mondal@nuevostech.com']
+2025-09-18 12:59:07,186 | INFO | Email sent to: muthumani.s@nuevostech.com | Subject: Renewal Reminder: 'Muthumani' Expires Today
+2025-09-18 12:59:07,189 | INFO | Hourly alert sent for 'Muthumani' to ['muthumani.s@nuevostech.com']
+2025-09-18 12:59:10,778 | INFO | Email sent to: rakshit.mudgal@nuevostech.com | Subject: Renewal Reminder: 'Rakshit' Expires Today
+2025-09-18 12:59:10,782 | INFO | Hourly alert sent for 'Rakshit' to ['rakshit.mudgal@nuevostech.com']
+2025-09-18 12:59:14,284 | INFO | Email sent to: sanjana.samireddypalle@nuevostech.com | Subject: Renewal Reminder: 'Sanjana' Expires Today
+2025-09-18 12:59:14,284 | INFO | Hourly alert sent for 'Sanjana' to ['sanjana.samireddypalle@nuevostech.com']
+2025-09-18 12:59:17,769 | INFO | Email sent to: info@nuevostech.com | Subject: Renewal Reminder: 'Sateesh' Expires Today
+2025-09-18 12:59:17,769 | INFO | Hourly alert sent for 'Sateesh' to ['info@nuevostech.com']
+2025-09-18 12:59:21,165 | INFO | Email sent to: shivani@nuevostech.com | Subject: Renewal Reminder: 'Shivani' Expires Today
+2025-09-18 12:59:21,165 | INFO | Hourly alert sent for 'Shivani' to ['shivani@nuevostech.com']
+2025-09-18 12:59:24,654 | INFO | Email sent to: shruti.gayatri@nuevostech.com | Subject: Renewal Reminder: 'Shruti' Expires Today
+2025-09-18 12:59:24,654 | INFO | Hourly alert sent for 'Shruti' to ['shruti.gayatri@nuevostech.com']
+2025-09-18 12:59:28,143 | INFO | Email sent to: simin.islam@nuevostech.com | Subject: Renewal Reminder: 'Simin' Expires Today
+2025-09-18 12:59:28,150 | INFO | Hourly alert sent for 'Simin' to ['simin.islam@nuevostech.com']
+2025-09-18 12:59:31,637 | INFO | Email sent to: somadhara.ramabattina@nuevostech.com | Subject: Renewal Reminder: 'Somadhara' Expires Today
+2025-09-18 12:59:31,637 | INFO | Hourly alert sent for 'Somadhara' to ['somadhara.ramabattina@nuevostech.com']
+2025-09-18 12:59:35,062 | INFO | Email sent to: sureddi.pinakapani@nuevostech.com | Subject: Renewal Reminder: 'Pani' Expires Today
+2025-09-18 12:59:35,062 | INFO | Hourly alert sent for 'Pani' to ['sureddi.pinakapani@nuevostech.com']
+2025-09-18 12:59:38,587 | INFO | Email sent to: thanvi@nuevostech.com | Subject: Renewal Reminder: 'Thanvi' Expires Today
+2025-09-18 12:59:38,587 | INFO | Hourly alert sent for 'Thanvi' to ['thanvi@nuevostech.com']
+2025-09-18 12:59:41,878 | INFO | Email sent to: veni.veronica@nuevostech.com | Subject: Renewal Reminder: 'Veni' Expires Today
+2025-09-18 12:59:41,878 | INFO | Hourly alert sent for 'Veni' to ['veni.veronica@nuevostech.com']
+2025-09-18 12:59:45,718 | INFO | Email sent to: yash.vashi@nuevostech.com | Subject: Renewal Reminder: 'Yash' Expires Today
+2025-09-18 12:59:45,718 | INFO | Hourly alert sent for 'Yash' to ['yash.vashi@nuevostech.com']
